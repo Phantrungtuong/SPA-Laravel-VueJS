@@ -2,7 +2,7 @@
 <html lang="vi VN">
 <head>
     <meta charset="utf-8">
-    <title>SPA Forum - Allaravel.com</title>
+    <title>SPA Forum</title>
 
     <!-- Main styles for this application -->
     <link href="{{ 'css/app.css' }}" rel="stylesheet">
@@ -10,7 +10,7 @@
 </head>
 <body>
 <div id="app">
-    <example-component></example-component>
+
 </div>
 
 <script src="{{'js/app.js'}}"></script>
