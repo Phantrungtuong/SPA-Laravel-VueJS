@@ -11,6 +11,25 @@
 |
 */
 
-Route::get('/', function () {
+
+
+Route::fallback(function () {
     return view('welcome');
 });
+
+Route::get('/abc', function (){
+    echo "fuckyou";
+});
+
+Route::get('/login', 'Auth\LoginController@showLoginForm')->name('login');
+Route::post('/login', 'Auth\LoginController@login');
+Route::post('/logout', 'Auth\LoginController@logout')->name('logout');
+
+// Registration Routes...
+Route::get('/register', 'Auth\RegisterController@showRegistrationForm')->name('register');
+Route::post('/register', 'Auth\RegisterController@register');
+
+
+Route::get('/home', 'HomeController@index')->name('home');
+
+

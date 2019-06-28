@@ -1,6 +1,6 @@
 <template>
     <div>
-        <h1>Page Hom asdasd  e</h1>
+        <h1>Page Home</h1>
     </div>
 </template>
 

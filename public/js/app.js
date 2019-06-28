@@ -37051,7 +37051,7 @@ var staticRenderFns = [
     return _c("h1", [
       _vm._v("SPA "),
       _c("small", [_vm._v("with")]),
-      _vm._v("Laravel + VueJS")
+      _vm._v(" Laravel + VueJS")
     ])
   }
 ]
@@ -37114,7 +37114,7 @@ var staticRenderFns = [
     var _vm = this
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
-    return _c("div", [_c("h1", [_vm._v("Page Hom asdasd  e")])])
+    return _c("div", [_c("h1", [_vm._v("Page Home")])])
   }
 ]
 render._withStripped = true
@@ -52173,15 +52173,14 @@ __webpack_require__.r(__webpack_exports__);
 /*!****************************************************!*\
   !*** ./resources/js/components/views/homeView.vue ***!
   \****************************************************/
-/*! no static exports found */
+/*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _homeView_vue_vue_type_template_id_2a85d9a0___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./homeView.vue?vue&type=template&id=2a85d9a0& */ "./resources/js/components/views/homeView.vue?vue&type=template&id=2a85d9a0&");
 /* harmony import */ var _homeView_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./homeView.vue?vue&type=script&lang=js& */ "./resources/js/components/views/homeView.vue?vue&type=script&lang=js&");
-/* harmony reexport (unknown) */ for(var __WEBPACK_IMPORT_KEY__ in _homeView_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__) if(__WEBPACK_IMPORT_KEY__ !== 'default') (function(key) { __webpack_require__.d(__webpack_exports__, key, function() { return _homeView_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__[key]; }) }(__WEBPACK_IMPORT_KEY__));
-/* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
+/* empty/unused harmony star reexport *//* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
 
 
 
@@ -52211,7 +52210,7 @@ component.options.__file = "resources/js/components/views/homeView.vue"
 /*!*****************************************************************************!*\
   !*** ./resources/js/components/views/homeView.vue?vue&type=script&lang=js& ***!
   \*****************************************************************************/
-/*! no static exports found */
+/*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -52261,8 +52260,9 @@ vue__WEBPACK_IMPORTED_MODULE_0___default.a.use(vue_router__WEBPACK_IMPORTED_MODU
 
 
 var router = new vue_router__WEBPACK_IMPORTED_MODULE_1__["default"]({
+  mode: 'history',
   routes: [{
-    path: '/abc',
+    path: '/index',
     name: 'Home',
     component: _components_views_homeView_vue__WEBPACK_IMPORTED_MODULE_2__["default"]
   }, {
