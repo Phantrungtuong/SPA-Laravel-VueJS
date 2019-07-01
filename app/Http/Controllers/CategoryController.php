@@ -25,4 +25,12 @@ class CategoryController extends Controller
         return $topics;
 
     }
+    public function create(){
+        $data = request()->all();
+        dd($data);
+//        Categories::create($request->all());
+        return response()
+            ->json(['message' => 'Success: You have added an user']);
+
+    }
 }

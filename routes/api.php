@@ -18,3 +18,4 @@ Route::middleware('auth:api')->get('/user', function (Request $request) {
 });
 
 Route::get('category', 'CategoryController@index');
+Route::post('/addcategory', 'CategoryController@index')->name('category.create');
